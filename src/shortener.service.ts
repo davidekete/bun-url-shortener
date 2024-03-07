@@ -4,13 +4,6 @@ import { isURLValid } from "./utils";
 
 const prisma = new PrismaClient();
 
-
-
-
-
-
-
-
 export async function shortenUrl(longUrl: string) {
   try {
     //Is the Url valid?
